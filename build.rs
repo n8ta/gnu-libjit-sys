@@ -7,6 +7,7 @@ fn main() {
 
     let path = Path::new("./libjit");
 
+
     Command::new("cp").args(&["-r", path.to_str().expect("converting ./libjit to path"), &out_dir])
         .spawn().expect("copying lib jit to cargo outdir");
 
