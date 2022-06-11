@@ -1,6 +1,6 @@
 use std::process::Command;
 use std::env;
-use std::path::{Path, PathBuf};
+use std::path::{Path};
 
 fn main() {
     let path = Path::new("./libjit");
