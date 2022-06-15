@@ -1,4 +1,4 @@
-use libjit_sys::{_jit_type, jit_abi_t_jit_abi_cdecl, jit_context_build_end, jit_context_build_start, jit_context_create, jit_function_apply, jit_function_compile, jit_function_create, jit_insn_add, jit_insn_mul, jit_insn_rem, jit_insn_rethrow_unhandled, jit_insn_return, jit_type_create_signature, jit_type_free, jit_type_int, jit_type_t, jit_value_get_param};
+use gnu_libjit_sys::{_jit_type, jit_abi_t_jit_abi_cdecl, jit_context_build_end, jit_context_build_start, jit_context_create, jit_function_apply, jit_function_compile, jit_function_create, jit_insn_add, jit_insn_mul, jit_insn_rem, jit_insn_rethrow_unhandled, jit_insn_return, jit_type_create_signature, jit_type_free, jit_type_int, jit_type_t, jit_value_get_param};
 use libc::c_int;
 use libc::c_void;
 
