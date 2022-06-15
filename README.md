@@ -9,6 +9,6 @@ You can find a safe rust-style wrapper around the bindings @ [github.com/n8ta/gn
 
 # Usage
 ```
-libjit-sys = "0.0.0"
+libjit-sys = "0.0.1"
 ```
 

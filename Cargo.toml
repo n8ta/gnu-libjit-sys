@@ -1,12 +1,12 @@
 [package]
 name = "gnu-libjit-sys"
-version = "0.0.0"
+version = "0.0.1"
 build = "build.rs"
 edition = "2018"
 description = "Rust bindings for libjit compiler"
 license = " GPL-2.0-only"
-homepage = "https://github.com/n8ta/libjit-sys"
-repository = "https://github.com/n8ta/libjit-sys"
+homepage = "https://github.com/n8ta/gnu-libjit"
+repository = "https://github.com/n8ta/gnu-libjit-sys"
 
 [dependencies]
 libc = "0.2"
